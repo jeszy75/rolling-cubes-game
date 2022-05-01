@@ -36,7 +36,7 @@ public class OpeningController {
             Stage stage = (Stage) ((Node) actionEvent.getSource()).getScene().getWindow();
             stage.setScene(new Scene(root));
             stage.show();
-            Logger.info("The user's name is set to {}, loading game scene", playerNameTextField.getText()); // TODO
+            Logger.info("The user's name is set to {}, loading game scene", playerNameTextField.getText());
         }
     }
 
